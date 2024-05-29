@@ -3,4 +3,4 @@ build/
 minRLHF/__pycache__/
 __pycache__/
 *.model/
-*.egg-info/
+*egg*
