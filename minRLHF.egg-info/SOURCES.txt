@@ -5,9 +5,11 @@ minRLHF/actor.py
 minRLHF/buffer.py
 minRLHF/critic.py
 minRLHF/environment.py
+minRLHF/logger.py
 minRLHF/ppo_trainer.py
 minRLHF/utils.py
 minRLHF.egg-info/PKG-INFO
 minRLHF.egg-info/SOURCES.txt
 minRLHF.egg-info/dependency_links.txt
+minRLHF.egg-info/requires.txt
 minRLHF.egg-info/top_level.txt
