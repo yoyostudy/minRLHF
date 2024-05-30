@@ -1,5 +1,6 @@
 transformers
 torch
-torch_discounted_cumsum #? why I need to manually move the .cpp to lib
+torch_discounted_cumsum
 matplotlib
 Ninja
+ipykernel

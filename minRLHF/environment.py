@@ -19,7 +19,6 @@ class Environment(ABC):
         return inputs.input_ids, inputs.attention_mask
         
     def get_rewards(self, output_ids, input_mask, output_mask):
-        
         # Decode generations back into text
         full_mask = logical_or_without_broadcasting(input_mask, output_mask)
         texts = []
@@ -39,3 +38,6 @@ class Environment(ABC):
         
         return rewards
         
+    def step(self):
+        # I don't understand why there is no step function in this env
+        pass
